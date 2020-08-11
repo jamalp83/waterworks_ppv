@@ -3,10 +3,19 @@
 /* * {
     border: 2px solid red;
 } */
-@media screen and (max-width: 900px){
+
+
+@media screen and (max-width: 1480px){
+
+    .contact_frm{
+        min-width: 270px;
+    }
+
 
 
 }
+
+
 
 .test{
     position: relative;
@@ -108,3 +117,200 @@ img.card-img{
     padding-bottom: 10px;
 }
 
+
+.ft-container{
+    border: 2px solid red;
+
+}
+
+.ft-container > label{
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    width: 50%;
+}
+
+.frm-cont{
+    margin-top: 4px;
+    position: relative;
+}
+
+.frm-format {
+    position: relative;
+    /* padding: 2% 35% 5% 35%;   */
+
+}
+
+.form-all {
+    list-style-type: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-areas: 'first second third';
+
+    padding: 10px;
+    position: relative;
+    width: 100%;
+  }
+  .grid1{
+    position: relative;
+    grid-area: first;
+
+}
+    .grid2 {
+    position: relative;
+    grid-area: second;
+
+}
+
+    .grid3 {
+    position: relative;
+    grid-area: third;
+
+}
+
+  .grid-item {
+    padding: 20px;
+    font-size: 15px;
+
+  }
+
+  .grid-item > form > label{
+      margin-top: 10px;
+  }
+
+  .soc_logo{
+    position: relative;
+    top: 80%;
+}
+
+.soc_logo_size{
+    height: 70px !important;
+    width: 70px !important;
+}
+
+.contact_frm {
+    position: relative;
+    left: 25%;
+
+}
+
+label {
+    color: honeydew;
+}
+
+.ftr{
+    width: 100%;
+    background-color: currentColor;
+    margin-top: 1%;
+}
+
+.cpyrt{
+    text-align: center;
+    color: white;
+    margin: 4px;
+}
+
+form > input{
+  border-radius: 9px;
+}
+
+form > textarea{
+  border-radius: 9px;
+}
+
+#submit{
+    margin: 12px;
+}
+
+#category{
+  border-radius: 9px;
+}
+
+.separator{
+    /* width: 100%;
+    height: 1px; */
+    border: solid white 1px;
+    opacity: 0.5;
+}
+
+.service_price_section{
+  margin-top: 4px;
+  background-color: white;
+}
+
+@media screen and (max-width: 1200px){
+    .grid-container {
+        position: relative;
+        display: grid;
+        grid:
+        'third'
+        'second'
+        'first';
+        grid-gap: 10px;
+
+        padding: 10px;
+      }
+      .soc_logo{
+        position: relative;
+        top: auto;
+        text-align: center;
+    }
+
+}
+
+
+table, td, th {
+    position: relative;
+    border-bottom: solid black 1px;
+    
+}
+
+table{
+
+    width: 100%;
+}
+.fcolumn {
+    width: 20%;
+    background-color: whitesmoke;    
+}
+
+.scolumn {
+    position: relative;
+    width: 70%;
+    text-align: center;
+    background-color: whitesmoke;    
+}
+
+.tcolumn {
+    width: 20%;
+    background-color: whitesmoke;
+}
+
+.service_price_section {
+    padding: 20px 20px;
+}
+
+
+.fcolumn1 {
+    width: 20%;
+  
+}
+
+.scolumn1 {
+    position: relative;
+    width: 70%;
+    text-align: center;
+ 
+}
+
+.tcolumn1 {
+    width: 20%;
+
+}
