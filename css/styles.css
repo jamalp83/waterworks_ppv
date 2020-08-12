@@ -172,8 +172,14 @@ form {
     .grid3 {
     position: relative;
     grid-area: third;
-
+    
 }
+    .grid3 > img {
+        position: relative;
+        grid-area: third;
+
+        width: 200px;
+    }
 
   .grid-item {
     padding: 20px;
@@ -188,11 +194,13 @@ form {
   .soc_logo{
     position: relative;
     top: 80%;
+    text-align: center;
+    width: 223px;
 }
 
 .soc_logo_size{
-    height: 70px !important;
-    width: 70px !important;
+    height: 70px;
+    width: 70px;
 }
 
 .contact_frm {
@@ -261,6 +269,15 @@ form > textarea{
         position: relative;
         top: auto;
         text-align: center;
+        width: 223px;
+        height: 150px;
+        left: 23%;
+    }
+
+    .contact_frm {
+        position: relative;
+        left: 17%;
+        width: 270px;
     }
 
 }
@@ -270,6 +287,10 @@ table, td, th {
     position: relative;
     border-bottom: solid black 1px;
     
+}
+
+ td > ul > li {
+    list-style-type: circle;
 }
 
 table{
@@ -313,4 +334,8 @@ table{
 .tcolumn1 {
     width: 20%;
 
+}
+
+.soc_logo > div {
+    text-align: center;
 }
